@@ -3,6 +3,8 @@
 A Redis Emitter implementation for PHP >=8.3.
 This package is not dependent on a specific Redis interface.
 
+[Read more.](https://github.com/socketio/socket.io-redis-emitter)
+
 ## Installation
 
 ```bash
