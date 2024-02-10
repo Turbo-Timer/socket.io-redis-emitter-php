@@ -2,7 +2,7 @@
   "name": "turbo-timer/socket.io-redis-emitter-php",
   "description": "Socket.IO Redis Emitter implementation in PHP 8 without any Redis dependencies",
   "type": "package",
-  "version": "1.0.0",
+  "license": ["MIT"],
   "authors": [
     {
       "name": "Bart Ramaekers",
