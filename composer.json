@@ -1,0 +1,29 @@
+{
+  "name": "turbo-timer/socket.io-redis-emitter-php",
+  "description": "Socket.IO Redis Emitter implementation in PHP 8 without any Redis dependencies",
+  "type": "package",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Bart Ramaekers",
+      "homepage": "https://bartramaekers.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TurboTimer\\SocketIO\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=8.3",
+    "rybakit/msgpack": "^0.9.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11"
+  }
+}
