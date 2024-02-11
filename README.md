@@ -18,7 +18,10 @@ Setup:
 ```php
 $redis = new Redis(...) // some Redis implementation.
 
-$onPublish = fn (string $channel, string $message) => $redis->publish($channel, $message);
+$onPublish = function (string $channel, string $message) use ($redis): void {
+    $redis->publish($channel, $message);
+}
+
 $emitter = new \TurboTimer\SocketIO\Emitter($onPublish);
 ```
 
